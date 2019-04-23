@@ -25,12 +25,11 @@ https://flutter.dev/docs/get-started/install/macos#create-and-run-a-simple-flutt
 
 `$ cd my_app`
 
-`$ flutter run -d [device_id]`
+`$ flutter run`
 
 
-Find devices
 
-`$ flutter devices`
+
 
 
 
