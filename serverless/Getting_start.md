@@ -58,3 +58,28 @@ custom:
     dev: devProfile
     prod: prodProfile
 ```
+
+## Invoke Local
+
+
+Localで試すには
+
+```
+$ serverless invoke local --function functionName
+```
+
+https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/#aws---invoke-local
+
+## Install service
+
+サービスをインストールする
+
+```
+$ serverless install --url https://github.com/some/service
+```
+
+e.g. 
+
+```
+$ serverless install --url https://github.com/pmuens/serverless-crud
+```
