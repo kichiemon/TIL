@@ -83,3 +83,22 @@ e.g.
 ```
 $ serverless install --url https://github.com/pmuens/serverless-crud
 ```
+
+## serverlessをglobalに入れない
+
+```
+npm install serverless --save-dev
+```
+
+### localに入れたserverlessを実行するには
+
+To execute the locally installed Serverless executable you have to reference the binary out of the node modules directory.
+
+Example:
+
+node ./node_modules/serverless/bin/serverless deploy
+
+
+## Organization
+
+https://serverless.com/framework/docs/providers/aws/guide/services#organization
