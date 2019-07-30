@@ -29,6 +29,7 @@ Today I learned.
 
 #### kubernetes
 * [Getting start](backend/kubernetes/getting_start.md)
+* [Docker Kubernetes](backend/docker_kubernetes/)
 
 ### Terraform
 * [Terraform:init](backend/terraform/init.md)
@@ -36,3 +37,6 @@ Today I learned.
 
 ### Serverless
 * [Serverless:getting_start](serverless/Getting_start.md)
+
+### DynamoDB
+* [Serverless:getting_start](./backend/dynamodb/bestpractice.md)
