@@ -1,5 +1,44 @@
 # GitLabRunnerでのCI
 
+## iOSのリポジトリにGitLabRunnerを導入する手順
+
+1. gitlab-runner をインストール
+```
+# https://docs.gitlab.com/runner/install/osx.html#manual-installation-official
+$ gitlab-runner install
+```
+2. GitLabに登録する
+```.bash
+$ gitlab-runner register
+```
+3. gitlab-runnerの登録が正しくできているか確認する
+```
+$ gitlab-runner verify
+```
+3. gitlab-runnerのコマンド確認
+```
+$ gitlab-runner -h
+```
+4. gitlab-runnerを停止
+```
+$ gitlab-runner stop
+```
+4. gitlab-runnerを起動
+```
+$ gitlab-runner start
+```
+4. gitlab-runnerをデバッグモードで走らせる
+```
+$ gitlab-runner --debug run
+```
+4. gitlab-runnerの登録を解除する
+```
+$ gitlab-runner unregister
+```
+4. gitlab-runnerでCIジョブを実行する
+```
+gitlab-runner exec shell build
+```
 
 ```
 g diff .gitlab-ci.yml
@@ -35,7 +74,6 @@ gitlab-runner -h
 sudo gitlab-runner register
 # https://docs.gitlab.com/runner/install/osx.html#manual-installation-official
 gitlab-runner install
- gitlab-runner install
  ```
 
 
