@@ -12,6 +12,9 @@ $ kubectl get event
 $ kubectl get pods
 $ kubectl get deployments
 $ kubectl get services
+
+# クラスタに参加しているNodeの一覧を取得
+$ kubectl get nodes
 ```
 
 ### Create deployment
