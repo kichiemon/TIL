@@ -59,3 +59,7 @@ $ kubectl get deployments
 $ kubectl expose deployment hello-node --type=LoadBalancer --port=8080 // --type=LoadBalancerフラグはServiceをクラスタ外部に公開したいことを示しています。
 $ minikube service hello-node
 ```
+
+### stern
+
+`stern [deployment name]`

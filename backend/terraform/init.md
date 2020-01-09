@@ -26,4 +26,18 @@ provider "aws" {
 
 で利用する。
 
+## BackendをS3に設定する
+
+- 事前にS3にバケットを作っておく必要があるので、手で作る
+- tfstateの保存場所をS3に設定する
+```
+terraform {
+  backend "s3" {
+    bucket  = "my-tfstate-store-name-at-s3" # backet name
+    key     = "hogehoge/terraform.tfstate"
+    profile = "my-profile-name"
+  }
+}
+```
+- terraform initする
 

@@ -28,7 +28,7 @@ Today I learned.
 ### backend
 
 #### kubernetes
-* [Getting start](backend/kubernetes/getting_start.md)
+* [Getting start](backend/kubernetes/README.md)
 * [Docker Kubernetes](backend/docker_kubernetes/)
 
 ### Terraform
